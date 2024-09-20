@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-image {
+    max-width: 300px;
+    margin: 20px;
+}
+
+.product-details {
+    text-align: center;
+}
+
+.product-details h2 {
+    color: #333;
+}
+
+.product-details p {
+    color: #777;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 24px;
+    color: #ff6347;
+    margin: 10px 0;
+}
+
+.cta-btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cta-btn:hover {
+    background-color: #ff4500;
+}
+
+.additional-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.additional-images img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+}
+
+.additional-images img:hover {
+    border: 2px solid #ff6347;
+}
+
+.links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff6347;
+}
+
+.social-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.reviews-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.newsletter {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+.newsletter input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter input[type="submit"]:hover {
+    background-color: #ff4500;
+}
+
+@media screen and (max-width: 768px) {
+    .product-section {
+        flex-direction: column;
+    }
+}
